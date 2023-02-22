@@ -56,7 +56,6 @@ int main(){
 		}	
 	}
 	else{
-		printf("hi");
 		while(i >= 0){
 			printf("%d --> %d  ,",a,req[i]);
 			heads += abs(a-req[i]);

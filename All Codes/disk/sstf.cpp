@@ -29,12 +29,12 @@ int main(){
 	scanf("%d",&c);
 	int k;
 	for(k=0;k< n;k++){
-		if(req[k] == a){
+		if(req[k] > a){
 			break;
 		}
 	}
 	int i = k-1;
-	int j = k+1;
+	int j = k;
 	int heads = 0;
 	while(i >= 0 && j < n){
 		if(abs(req[i]-a) < abs(req[j]-a)){
